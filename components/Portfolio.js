@@ -76,7 +76,7 @@ export default function Portfolio() {
       <ul className="list-disc pl-5 mt-2 text-xs space-y-4 sm:text-base">
         <li>
           <a
-            href="https://github.com/your-github/aifybox"
+            href="https://www.linkedin.com/posts/shreyash-shing1_heloo-everyone-delighted-to-share-updates-activity-7295652941242253312-asoc?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEWU0jEB31EV6EHh-_wkfFfPUD0fddghkDc"
             target="_blank"
             className="text-blue-600"
           >
@@ -194,7 +194,7 @@ export default function Portfolio() {
         </li>
         <li>
           <a
-            href="https://www.npmjs.com/package/op-db"
+            href="https://op-db-docs.vercel.app/"
             target="_blank"
             className="text-blue-600"
           >
@@ -270,7 +270,7 @@ export default function Portfolio() {
         </li>
         <li>
           <a
-            href="https://www.npmjs.com/package/op-db"
+            href="https://quizup-skillup.vercel.app/"
             target="_blank"
             className="text-blue-600"
           >
@@ -337,7 +337,7 @@ export default function Portfolio() {
         </li>
         <li>
           <a
-            href="https://www.npmjs.com/package/op-db"
+            href="https://ky4r.vercel.app/"
             target="_blank"
             className="text-blue-600"
           >
