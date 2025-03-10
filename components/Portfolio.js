@@ -73,6 +73,7 @@ export default function Portfolio() {
       <h2 className="text-xl md:text-2xl font-bold text-blue-500 pt-[10%]">
         Projects
       </h2>
+
       <ul className="list-disc pl-5 mt-2 text-xs space-y-4 sm:text-base">
         <li>
           <a
@@ -392,6 +393,33 @@ export default function Portfolio() {
         </li>
       </ul>
 
+      <div>
+        <h1 className="text-xl md:text-3xl font-bold text-blue-500 pt-[10%]">
+          Experiance
+        </h1>
+        {/* <p className="text-sm md:text-lg md:mt-2">
+          Web Developer | AI | ML | DL | GenAI Developer
+        </p> */}
+        <h2 className="text-md md:text-xl font-bold md:mt-6">
+          FED KIIT ELABS &minus; Web Developer & AIML Tech Team Member
+        </h2>
+        <p className="md:mt-2 text-xs md:text-lg">
+          As part of the Full-Stack Developers (FED) KIIT tech team, I have
+          contributed to various projects, including Dynamic Certificate
+          Generation for events. My role involved leveraging my web development
+          skills to build and enhance digital solutions.
+        </p>
+        <h2 className="text-md md:text-xl font-bold md:mt-6">
+          ELABS &minus; Web Developer
+        </h2>
+        <p className="md:mt-2 text-xs md:text-lg">
+          I was responsible for developing and maintaining the society’s
+          website, along with working on other web-based projects. My work
+          focused on ensuring a seamless user experience and optimizing the
+          platform&#39;s functionality.
+        </p>
+      </div>
+
       <div className="mt-10">
         <h2 className="text-xl md:text-2xl font-bold text-blue-500">
           Contact Me
@@ -467,15 +495,26 @@ export default function Portfolio() {
         <p className="text-sm md:text-lg md:mt-2">
           You can download my resume by clicking the button below:
         </p>
-        <a
-          href="/resume.pdf"
-          download="resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-4 px-4 py-2 bg-blue-500 text-white text-sm md:text-lg font-bold rounded-lg hover:bg-blue-600 transition-all"
-        >
-          Download Resume
-        </a>
+        <div className="flex flex-row gap-4">
+          <a
+            href="/resume.pdf"
+            download="resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 px-4 py-2 bg-blue-500 text-white text-sm md:text-lg font-bold rounded-lg hover:bg-blue-600 transition-all"
+          >
+            Download Resume
+          </a>
+          <a
+            href="/resume.pdf"
+            // download="resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 px-4 py-2 bg-blue-500 text-white text-sm md:text-lg font-bold rounded-lg hover:bg-blue-600 transition-all"
+          >
+            View Resume
+          </a>
+        </div>
       </div>
     </div>
   );
