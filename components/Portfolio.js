@@ -69,6 +69,33 @@ export default function Portfolio() {
           Convolutional Neural Network (CNN), Transformers
         </p>
       </div>
+      <div>
+        <h2 className="text-xl md:text-2xl font-bold text-blue-500 pt-[10%]">
+          Updates
+        </h2>
+        <p className="text-md md:text-xl md:mt-6">
+          I build A LoT. This portfolio cant keep up — I have already built 5+
+          new GenAI products and still working on some cool stuff since the last
+          update!
+        </p>
+        <p className="mt-2 text-xs md:text-lg">
+          I regularly post my latest projects, demos, and ideas on{" "}
+          <a
+            href="https://www.linkedin.com/in/shreyash-shing1/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline"
+          >
+            LinkedIn
+          </a>
+          , so feel free to check it out for the freshest work.
+        </p>
+        <p className="md:mt-2 text-xs md:text-lg">
+          {" "}
+          Thanks for dropping by — and if you are curious, dont hesitate to chat
+          with me or Hana !
+        </p>
+      </div>
 
       <h2 className="text-xl md:text-2xl font-bold text-blue-500 pt-[10%]">
         Projects
